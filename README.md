@@ -102,9 +102,22 @@ A professional utility for visualizing folder structures with a modern, user-fri
    python folder_tree_viewer.py
    ```
 
-## 📦 Download
+## ⚠️ Antivirus Detection Notice
 
-➡️ [Download Folder Tree Viewer (.exe)](https://github.com/NikhilAtrey/folder-tree-viewer/releases/download/v1.0.0/Folder%20Tree%20Viewer.exe)
+> **Important**: When downloading the executable (.exe) file, your antivirus software may flag it as a potential threat. This is a **false positive** and the application is completely safe to use. This happens because:
+> 
+> 1. The application is not digitally signed
+> 2. It's a Python application packaged as an executable
+> 3. It accesses the file system to scan folders
+> 
+> ### How to safely download and use the application:
+> 
+> 1. **Temporarily disable your antivirus** before downloading
+> 2. Download the file from the [releases page](https://github.com/NikhilAtrey/folder-tree-viewer/releases)
+> 3. Add an exception in your antivirus for the downloaded file
+> 4. Re-enable your antivirus
+> 
+> Alternatively, you can build the application yourself using the [installation instructions](#-installation) above, which will avoid antivirus detection entirely.
 
 ## 📖 Usage
 
