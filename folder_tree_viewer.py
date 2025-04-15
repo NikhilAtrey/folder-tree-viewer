@@ -1216,7 +1216,7 @@ F5: Refresh
         ttk.Label(github_frame, text="Visit us on").pack(side=tk.LEFT)
         github_link = ttk.Label(github_frame, text="GitHub", foreground="blue", cursor="hand2")
         github_link.pack(side=tk.LEFT, padx=(5, 0))
-        github_link.bind("<Button-1>", lambda e: webbrowser.open("https://github.com/yourusername/folder-tree-viewer"))
+        github_link.bind("<Button-1>", lambda e: webbrowser.open("https://github.com/NikhilAtrey/folder-tree-viewer"))
         
         # Close button
         ttk.Button(about, text="Close", command=about.destroy).pack(pady=10)
@@ -1227,7 +1227,7 @@ F5: Refresh
             self.update_status("Checking for updates...")
             
             # Open GitHub releases page
-            webbrowser.open("https://github.com/yourusername/folder-tree-viewer/releases")
+            webbrowser.open("https://github.com/NikhilAtrey/folder-tree-viewer/releases")
             
             self.update_status("Opened GitHub releases page in your browser.")
         except Exception as e:
