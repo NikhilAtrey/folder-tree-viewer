@@ -102,10 +102,6 @@ A professional utility for visualizing folder structures with a modern, user-fri
    python folder_tree_viewer.py
    ```
 
-## 📦 Download
-
-➡️ [Download Folder Tree Viewer (.exe)](https://github.com/NikhilAtrey/folder-tree-viewer/releases/download/v1.0.0/Folder%20Tree%20Viewer.exe)
-
 ## 📖 Usage
 
 ### 🔰 Basic Operations
